@@ -1,0 +1,10 @@
+body{
+	margin-top:80px;
+}
+
+.alert {
+  	width: 20%;
+  	position:absolute;
+  	right:0px;
+  	margin-right:100px;
+}

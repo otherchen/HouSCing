@@ -1,0 +1,125 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+
+#mainBody{
+	margin-top:65px;
+}
+
+body{
+	background-color: #B00000;
+	color:white;
+	font-family:montserrat;
+	margin:auto;
+}
+
+
+
+
+#maxDistance
+{
+	width:100px;
+}
+
+.filter-item{
+	margin-left:50px;
+
+}
+
+#map-canvas{
+
+margin-top: 5px;
+width:700px;
+height:500px;
+background-color: #CCC;
+position: absolute;
+}
+
+#pictureMenu{
+	position: relative;
+	margin-top:5px;
+	float:left;
+	left: 750px;
+	height:500px;
+	overflow-y:scroll;
+	border-width: 3px;
+	border-color: #FFCC00;
+	border-style:solid;
+	background-color:#FFFFF1; /*cream color*/
+	color:black;
+
+}
+
+.eachHouse
+{
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border-bottom-width: 2px;
+	border-bottom-color: #FFCC00; /*gold color */
+	border-bottom-style:solid;
+
+}
+
+.eachHouse .titleForEachHouse
+{
+	font-size: 18px;
+}
+
+.eachHouse .houseAttributes 
+{
+	position:relative;
+
+}
+
+.eachHouse .houseAttributes .houseIcon
+{
+	position:absolute;
+	margin-top: -25px;
+	right:10px;
+	width:50px;
+	height: 50px;
+	border: 2px black solid;
+	
+}
+
+.attributesLabel
+{
+	color:#B00000; /*red color */
+	
+}
+
+.row2Item{
+	padding-left: 45px;
+
+}
+
+#filter-bar
+{
+	border: 3px #FFCC00 solid;
+	width: 700px;
+	color:#B00000;
+	background-color:#FFFFF1;
+	font-size:13px;
+	position:absolute;
+}
+
+.houseFullInfo
+{
+	font-size: 16px;
+	border-bottom: 2px #FFCC00 solid;
+	border-right: 2px #FFCC00 solid;
+}
+
+#uscLogo
+{
+	position:relative;
+	left: 835px;
+	
+}
+
+#uscLogoImg
+{
+	height:60px;
+	width:250px;
+}
+
+
+

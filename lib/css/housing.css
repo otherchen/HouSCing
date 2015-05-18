@@ -1,0 +1,183 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+
+body {
+	font-family: montserrat;
+	background-color:#B00000;
+}
+
+/*headings*/
+.title {
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #2C3E50;
+	margin-bottom: 10px;
+}
+.subtitle {
+	font-weight: normal;
+	font-size: 13px;
+	color: #666;
+	margin-bottom: 20px;
+}
+
+/*form styles*/
+.form-wrapper {
+	width: 400px;
+	margin: auto;
+	padding: 20px 30px;	
+	text-align: center;
+	border-radius: 3px;
+	box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);	
+	box-sizing: border-box;
+	background-color:#FFFFF1;
+}
+
+/*inputs*/
+.form-wrapper input, .form-wrapper button{
+	font-family: montserrat;
+	font-size: 13px;
+	width: 100%;
+	padding: 15px;
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	box-sizing: border-box;
+}
+
+.form-wrapper .checkbox-container {
+	width: 100%;
+}
+
+.form-wrapper .checkbox-label {
+	color: #666;
+	font-weight: normal;
+}
+
+.form-wrapper .checkbox {
+	width: 13px;
+	float: left;
+	padding: 0px;
+	margin-bottom: 0px;
+	margin-right: 5px;
+	border: none;
+}
+
+/*buttons*/
+.form-wrapper .action-button {
+	width: 100px;
+	background: #27AE60; 
+	font-weight: bold;
+	color: white;
+	border: 0 none;
+	border-radius: 1px;
+	cursor: pointer;
+	padding: 10px 5px;
+	margin: 10px 5px;
+}
+.form-wrapper .action-button:hover, .form-wrapper .action-button:focus {
+	box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
+}
+
+.heading{
+	margin:auto;
+}
+
+.search-form{
+	width: 550px;
+	margin: auto;
+	margin-bottom: 15px;
+	padding: 20px 30px;	
+	padding-bottom: 10px;
+	text-align: center;
+	border-radius: 3px;
+	box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);	
+	box-sizing: border-box;	
+	background-color: #FFFFF1;
+}
+
+.search-form .stretch{
+	font-family: montserrat;
+	font-size: 13px;
+	width: 100%;
+	padding: 15px;
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	box-sizing: border-box;
+}
+
+.search-button{
+	width: 100px;
+	background: #27AE60; 
+	font-weight: bold;
+	color: white;
+	border: 0 none;
+	border-radius: 1px;
+	cursor: pointer;
+	padding: 7px 5px;
+	margin: 5px 5px;
+}
+
+.search-button:hover, .search-button:focus {
+	box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
+}
+
+.info-box{
+  	width: 550px;
+	margin: auto;
+	margin-bottom: 15px;
+	padding: 20px 30px;	
+	padding-bottom: 50px;
+	border-radius: 3px;
+	box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.4);	
+	box-sizing: border-box;
+	background-color:#FFFFF1;
+	
+}
+
+.info-table{
+	width: 100%;
+}
+
+.info-table .info-table-address{
+
+	color:black;
+	float:right;
+	font-size:14px;
+	width:250px;
+	word-wrap:break-word;
+	
+}
+
+
+
+.invisible {
+	display: none;
+}
+
+/* to make forms stay on one line */
+.inline-form{
+	display:inline;
+}
+
+/* for forms in the search page */
+.form-button{
+	width: 100px;
+	background: #27AE60; 
+	font-weight: bold;
+	color: white;
+	border: 0 none;
+	border-radius: 1px;
+	cursor: pointer;
+	padding: 7px 5px;
+	margin: 5px 5px;
+}
+
+.form-button:hover, .form-button:focus {
+	box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
+}	
+
+.searchPic{
+	height:200px;
+	width:200px;
+	border: 2px black solid;
+}
